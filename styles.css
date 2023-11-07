@@ -5,10 +5,25 @@
     align-items: center;
     width: 600px;
     height: 230px;
+    background-color: white;
 }
 
 body {
     background-color: #081c54;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    align-items: center;
 }
