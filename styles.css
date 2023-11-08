@@ -1,3 +1,4 @@
+/* Main Page Section */
 .title img {
     display: flex;
     justify-content: center;
@@ -11,7 +12,7 @@
 body {
     background-color: #081c54;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 a {
@@ -19,11 +20,22 @@ a {
     text-decoration: none;
 }
 
-ul {
+.container-one ul {
     list-style-type: none;
     background-color: white;
     display: flex;
     justify-content: center;
     border-radius: 50px;
     align-items: center;
+}
+
+.recipe-desc {
+    font-size: 16px;
+}
+
+
+/* Recipes and Steps Lists */
+.ingredients-list, .steps-list {
+    font-size: 14px;
+    color: red;
 }
