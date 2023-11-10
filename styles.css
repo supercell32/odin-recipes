@@ -1,3 +1,11 @@
+/* All Pages */
+body {
+    background-color: #081c54;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
 /* Main Page Section */
 .title img {
     display: flex;
@@ -9,12 +17,6 @@
     background-color: white;
 }
 
-body {
-    background-color: #081c54;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-}
-
 a {
     color: black;
     text-decoration: none;
@@ -24,18 +26,32 @@ a {
     list-style-type: none;
     background-color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     border-radius: 50px;
     align-items: center;
+    padding: 20px;
 }
+/* .container-one p {
+    margin-bottom: 50px;
+} */
 
 .recipe-desc {
     font-size: 16px;
 }
 
+.footer {
+    font-size: 16px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    align-items: center;
+    flex-direction: column;
+}
 
-/* Recipes and Steps Lists */
+
+/* Recipes and Steps Section */
 .ingredients-list, .steps-list {
-    font-size: 14px;
-    color: red;
+    font-size: 16px;
 }
