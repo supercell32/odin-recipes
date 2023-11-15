@@ -1,57 +1,83 @@
 /* All Pages */
-body {
-    background-color: #081c54;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-}
+    body {
+        background-color: #081c54;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+    }
 
 
 /* Main Page Section */
-.title img {
-    display: flex;
-    justify-content: center;
-    border-radius: 50px;
-    align-items: center;
-    width: 600px;
-    height: 230px;
-    background-color: white;
-}
+    .title img {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        border-radius: 50px;
+        width: 600px;
+        height: 230px;
+        margin-top: 30px;
+        background-color: white;
+    }
 
-a {
-    color: black;
-    text-decoration: none;
-}
+    a {
+        color: black;
+        text-decoration: underline;
+    }
 
-.container-one ul {
-    list-style-type: none;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 50px;
-    align-items: center;
-    padding: 20px;
-}
-/* .container-one p {
-    margin-bottom: 50px;
-} */
+    .container-one ul {
+        list-style-type: none;
+        background-color: white;
+        border-radius: 50px;
+        padding: 20px 10px;
+        margin: 3% 5%;
+    }
 
-.recipe-desc {
-    font-size: 16px;
-}
+    .container-one li {
+        margin-left: 30%;
+    }
 
-.footer {
-    font-size: 16px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    border-radius: 50px;
-    align-items: center;
-    flex-direction: column;
-}
+    .recipe-desc {
+        font-size: 18px;
+        margin-left: 30%;
+        margin-right: 10%;
+        margin-bottom: 205px;
+    }
+
+    .recipe-desc-top {
+        margin-top: 7%;
+    }
+
+    .recipe-desc-bottom {
+        font-size: 18px;
+        margin-bottom: 7%;
+        margin-left: 30%;
+        margin-right: 10%;
+
+    }
+
+    .footer {
+        font-size: 16px;
+        background-color: white;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        border-radius: 50px;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        width: 400px;
+    }
 
 
 /* Recipes and Steps Section */
-.ingredients-list, .steps-list {
-    font-size: 16px;
-}
+    .ingredients-list, .steps-list {
+        font-size: 18px;
+    }
+
+    .text-section {
+        background-color: white;
+        display: block;
+        margin: 0 auto;
+        border-radius: 50px;
+        align-items: center;
+        padding: 20px;
+    }
