@@ -18,21 +18,31 @@
         background-color: white;
     }
 
-    .title::after {
+    .title::before {
         border: 5px solid #f7ce46;
         width: 800px;
         height: 225px;
         border-radius: 80px;
-        display: block;
+        display: flex;
+        justify-content: center;
+        margin-top: -16.25%;
+        margin-left: 21%;
+        position: absolute;
+        content: "";
+        z-index: 2;
+    }
+
+    .title::after {
+        border: 5px solid #f7ce46;
+        display: flex;
+        justify-content: center;
         margin-top: -16.25%;
         margin-left: 21%;
         position: absolute;
         content: "";
         z-index: 1;
-    }
-
-    .title::after {
-
+        height: 225px;
+        width: 790px;
     }
 
     a {
