@@ -16,38 +16,45 @@
         height: 230px;
         margin-top: 30px;
         background-color: white;
+        position: relative;
     }
 
+        /* rounded border */
     .title::before {
         border: 5px solid #f7ce46;
-        width: 800px;
+        width: 710px;
         height: 225px;
         border-radius: 80px;
         display: flex;
         justify-content: center;
-        margin-top: -16.25%;
-        margin-left: 21%;
+        margin-top: -0.25%;
+        margin-left: 349px;
         position: absolute;
         content: "";
-        z-index: 2;
+        z-index: 1;
     }
 
+        /* square border */
     .title::after {
         border: 5px solid #f7ce46;
         display: flex;
         justify-content: center;
         margin-top: -16.25%;
-        margin-left: 21%;
+        margin-left: 364px;
         position: absolute;
         content: "";
-        z-index: 1;
+        z-index: 2;
         height: 225px;
-        width: 790px;
+        width: 679px;
     }
 
     a {
         color: black;
         text-decoration: underline;
+    }
+
+    .icon {
+
     }
 
     .container-one ul {
